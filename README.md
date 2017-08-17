@@ -10,7 +10,7 @@ A replacement for the National Instruments datalogger and Signal Express with la
   Why Python 2? It is backwards compatible with a bunch of operating systems (including Windows XP).  
   Dependencies: import sys, serial, argparse, numpy, sleep, deque, itertools, matplotlib, datetime.  
   Most of these should already be included. If not, they are pretty easy to install.  
-  a) To install serial, download pyserial from: https://pypi.python.org/pypi/pyserial  
+  a) To install serial, download pyserial from: https://pypi.python.org/pypi/pyserial/2.7 - I recommend pyserial 2.7 (for compatibility with Windows XP).  
   b) You may need to change the file path, similar to here: https://www.youtube.com/watch?v=byBW30oIRPU or use the setx PATH command (https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command).  
   c) You may want to install pip (usually pre-installed, but may require a change in file path) and wheel ('pip install wheel' into command prompt).  
   d) Use pip to install wheel file. I found this to be helpful: https://www.webucator.com/blog/2015/03/installing-the-windows-64-bit-version-of-pygame/  
