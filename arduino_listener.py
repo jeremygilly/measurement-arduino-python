@@ -1,8 +1,5 @@
-"""
-ldr.py
-Display analog data from Arduino using Python (matplotlib)
-Author: Mahesh Venkitachalam
-Website: electronut.in
+""" Full credit to Mahesh Venkitachalam at electronut.in who's initial code made this possible.
+I've just edited a few things to make it useful for this case of datalogging.
 """
 
 import sys, serial, argparse
