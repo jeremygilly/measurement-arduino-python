@@ -28,6 +28,8 @@ Find the correct port.<br />
 In command line when calling the python program, first navigate to the folder where the program is using <code>cd</code><br />
 Then, use: <code>python arduino_listener.py --port [your chosen port]</code><br />
 A chosen port on Mac OS X may be /dev/tty.usbmodem1411<br />
+A chosen port on Windows XP may be COM9, e.g. <code>python arduino_listener.py --port COM9</code><br />
+You may need to install/update hardware peripheral drivers for this to work. You can find further information here: https://www.arduino.cc/en/Guide/ArduinoUno#toc2
   
 # Output
 The data is output to the same folder the python file is saved in. I recommend saving to the Desktop. <br />
