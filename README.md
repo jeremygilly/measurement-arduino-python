@@ -16,6 +16,8 @@ A replacement for the National Instruments datalogger and Signal Express with la
   2. d) Use pip to install wheel file. I found this to be helpful: https://www.webucator.com/blog/2015/03/installing-the-windows-64-bit-version-of-pygame/<br />
   
 # Use
+0. Connect sensor as shown in the following diagram (note the resistor is the sensor).
+![alt text](https://github.com/jeremygilly/measurement-arduino-python/blob/master/GaN%20Circuit%20layout.png)
 1. Connect Arduino, turn on device, and run program.<br />
 2. Identify the USB port connected to the Arduino through the command line<br />
 Windows: <code>mode</code><br />
