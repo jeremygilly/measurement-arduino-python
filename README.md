@@ -14,6 +14,8 @@ A replacement for the National Instruments datalogger and Signal Express with la
   b) You may need to change the file path, similar to here: https://www.youtube.com/watch?v=byBW30oIRPU or use the setx PATH command (https://stackoverflow.com/questions/23708898/pip-is-not-recognized-as-an-internal-or-external-command).  
   c) You may want to install pip (usually pre-installed, but may require a change in file path) and wheel ('pip install wheel' into command prompt).  
   d) Use pip to install wheel file. I found this to be helpful: https://www.webucator.com/blog/2015/03/installing-the-windows-64-bit-version-of-pygame/  
+  e) Install numpy: <code>pip install numpy</code>
+  f) Install matplotlib: <code>pip install matplotlib</code>
   
 # Use
 0. Connect sensor as shown in the following diagram (note the resistor is the sensor).
