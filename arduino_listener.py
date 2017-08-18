@@ -26,7 +26,7 @@ class AnalogPlot:
       self.maxLen = maxLen
 
       global output_file
-      output_file.write('yyyy-mm-dd hh:mm:ss' + ', ' + 'output' + '\n')
+      output_file.write('yyyy-mm-dd hh:mm:ss' + ' ' + 'output' + '\n')
 
       
 
@@ -78,9 +78,11 @@ class AnalogPlot:
 # main() function
 def main():
   now = datetime.datetime.now()
-  write_to_file_path = str(now) + ".txt"
+  formatted_date = now.strftime("%Y %m %d - %I %M %S")
+  print formatted_date
+  write_to_file_path = str(formatted_date) + ".txt"
   global output_file
-  output_file = open(write_to_file_path, "w+")
+  output_file = open(write_to_file_path, 'w+')
   
       
   
@@ -104,7 +106,7 @@ def main():
 
   # set up animation
   fig = plt.figure()
-  ax = plt.axes(xlim=(0, 100), ylim=(0, 400))
+  ax = plt.axes(xlim=(0, 300), ylim=(0, 400))
   a0, = ax.plot([], [])
   a1, = ax.plot([], [])
   plt.ylabel('Response (mV)')
